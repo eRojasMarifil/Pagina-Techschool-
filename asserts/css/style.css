@@ -95,11 +95,21 @@ footer{
     display: flex;
     flex-direction: row;
     height: 20rem;
+    justify-content: space-around;
+    align-items: center;
+    justify-items: center;
     background-image: url(asserts\imagenes\desktop\image-footer.jpg);
     background-repeat: no-repeat;
     background-color: rgba(20, 20, 191, 0.354);
+    background-size: cover;
 }
 
 .sectionFooter{
+    padding: 5%;
+    width: 35%;
+}
+
+.buttonFooter{
     margin: 5%;
+    width: 30%;
 }
