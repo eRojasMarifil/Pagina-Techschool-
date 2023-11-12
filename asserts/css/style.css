@@ -2,6 +2,7 @@ body{
     display: flex;
     flex-direction: column;
     align-content: center;
+    font-family: sans-serif;
 }
 nav{
     display: flex;
@@ -36,6 +37,11 @@ header{
 
 h1{
     font-size: 3rem;
+    font-weight: bold;
+}
+
+.parrafo{
+    color: rgb(123, 124, 124);
 }
 
 .botonesHeader{
@@ -54,6 +60,12 @@ button{
     border: 0cm;
 }
 
+.boton-Cadet{
+    color: aliceblue;
+    background-color: rgb(77, 150, 169);
+    font-weight: bold;
+}
+
 .imagenHeader-right{
     width: 35%;
     margin-right: -5%;
@@ -68,53 +80,74 @@ main{
 .imagenesMain{
     display: flex;
     flex-direction: row;
+    align-items: center;
+    justify-content: center;
 
 }
 .imagenMain{
-    margin: auto;
+    margin: 1rem;
     width: 20%;
 }
 
 .text{
     margin: 10%;
-    margin-left: 20%;
-    margin-right: 20%;
+    margin-left: 29%;
+    margin-right: 29%;
     justify-content: center;
     text-align: center;
 }
 
 h3{
+    color: cadetblue;
     font-size: 1rem;
 }
 
 h2{
     font-size: 2rem;
+    margin-left: 10%;
+    margin-right: 10%;
 }
 
 footer{
+    color: aliceblue;
     display: flex;
     flex-direction: row;
     height: 20rem;
     justify-content: space-around;
     align-items: center;
     justify-items: center;
-    background-image: url(asserts\imagenes\desktop\image-footer.jpg);
-    background-repeat: no-repeat;
-    background-color: rgba(20, 20, 191, 0.354);
-    background-size: cover;
+    background-image: linear-gradient(
+        rgba(77, 150, 169, 0.9), 
+        rgba(77, 150, 169, 0.9)
+        ), url(../imagenes/desktop/image-footer.jpg);
+     background-repeat: no-repeat;
+     background-position: center;
+    /* background-color: rgba(20, 20, 191, 0.354); */
+     background-size: cover;
+     width: auto;
 }
 
-.sectionFooter{
-    padding: 5%;
+.tituloFooter{
+    font-size: 2rem;
+    font-weight: bold;
+    width: 40%;
+    margin-right: 0%;
+    margin-left: 15%;
+    padding-right: 5%;
+}
+
+.parrafoFooter{
     width: 35%;
+    margin-left: 5%;
+    margin-right: 4%;
 }
-
 .buttonFooter{
     margin: 5%;
     width: 30%;
 }
 
-.boton-descarga{
-    background-color: rgb(136, 8, 247);
-    color: black;
+.boton-morado{
+    background-color: rgb(133, 95, 177);
+    color: aliceblue;
+    font-weight: bold;
 }
